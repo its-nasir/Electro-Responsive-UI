@@ -1,0 +1,670 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+
+.container{
+    position: relative;
+    /* border: 2px solid black; */
+    max-width: 100%;
+    display: flex;
+    height: 50%;
+    gap: 7rem;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(241, 230, 230);
+}
+
+.arrow{
+    display: flex;
+    display: grid;
+    
+}
+
+.arrow img{
+    width: 1rem;
+    display: grid;  
+    position: absolute;
+    margin-left: 12rem;
+}
+
+.arrow img:first-child{
+    width: .8rem;
+    margin-left: -1rem;
+    height: 1rem;
+}
+
+.search img{
+    width: 2rem;
+}
+
+
+.search input{
+    width: 40rem;
+    border: none;
+}
+
+.search-all{
+    display: flex;
+}
+
+.icons{
+    display: flex;
+    gap: .1rem;
+}
+
+/* first border over  */
+
+.second {
+    /* display: grid */
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    border: none;
+    padding: 1rem 2rem;
+}
+
+.second select{
+    border: none;
+    background-color: white;
+}
+
+
+/* 2ND BORDER OVER */
+
+.background-img{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.background-img img{
+    max-width: 100%;
+}
+
+.top-1{
+    position: absolute;
+    top: 7rem;
+    left: 14rem;
+    font-size: 4rem;
+}
+
+.top-2{
+    position: absolute;
+    top: 12rem;
+    left: 14rem;
+    font-size: 8rem;
+}
+
+.top-3{
+    position: absolute;
+    top: 22rem;
+    left: 14rem;
+    font-size: 4rem;
+}
+
+.top-4{
+    position: absolute;
+    top: 28rem;
+    left: 14rem;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 20rem 20rem;
+    background-color: black;
+}
+
+/* 3rd seciton done  */
+
+.three-img img{
+    justify-content: space-around;
+    padding: 7rem 3rem;
+    width: 35rem;  
+}
+
+.three-img{
+    position: relative;
+    left: 7rem;  
+}
+
+
+/* 4th section done  */
+
+.production{
+    position: relative;
+    font-size: 2rem;
+    text-align: center;     
+    margin-bottom: 2rem;
+    /* border: 2px solid black; */
+   
+}
+
+/* 5th section done  */
+
+.line{
+    display: flex;
+    justify-content: center;
+}
+
+
+.element{
+    display: flex;
+    justify-content: space-around;
+    padding: .1rem 0 1rem 1rem;
+    width: 40%;
+    font-size: 1vw;
+    border-bottom: 2px solid black;
+}
+
+/* 6th section done  */
+
+
+
+.shopping-img{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    padding: .5rem .5rem;
+    background-color: blue ;
+    gap: 1rem;
+    border-radius: 20rem 20rem;
+    color: white;
+    
+}
+
+
+.smart-products{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2.2rem;
+    max-width: 100%;
+
+}
+
+/* on laptop  */
+
+.laptop{
+    border-top: 2rem;
+    padding: 4rem 3rem;
+    text-align: center;
+    border-radius: .2rem .2rem;
+    box-shadow: 0px 10px 30px #00000020;
+    
+}
+
+.off-1{
+    position: absolute;
+    top: 1rem;
+    left: 19rem;
+    border-radius: 20rem 20rem;
+    padding: .5rem .8rem;
+    font-size: .8rem;
+    background-color: #E1FFF1;
+    
+    
+}
+
+.laptop-img{
+    width: 14.5rem;
+}
+
+/* off laptop  */
+
+
+/* on phone  */
+.phone{
+    border-top: 2rem;
+    padding: 4rem 4rem;
+    text-align: center;
+    border-radius: .2rem .2rem;
+    box-shadow: 0px 10px 30px #00000020;
+}
+
+
+.off-2{
+    position: absolute;
+    top: 1rem;
+    left: 41rem;
+    border-radius: 20rem 20rem;
+    padding: .5rem .8rem;
+    font-size: .8rem;
+    background-color: #E1FFF1;
+}
+
+
+.phone-img{
+    width: 9rem;
+}
+
+/* off .phone */
+
+
+/* on headphone  */
+.headphone{
+    border-top: 2rem;
+    padding: 4rem 3rem;
+    text-align: center;
+    /* border: 2px solid black; */
+    border-radius: .2rem .2rem;
+    box-shadow: 0px 10px 30px #00000020;
+}
+
+.off-3{
+    position: absolute;
+    top: 1rem;
+    left: 62rem;
+    border-radius: 20rem 20rem;
+    padding: .5rem .8rem;
+    font-size: .8rem;
+    background-color: #E1FFF1;
+}
+
+.headphone-img{
+    width: 12rem;
+}
+
+/* off headphone  */
+
+
+.smart-watch{
+    border-top: 2rem;
+    padding: 4rem 3rem;
+    text-align: center;
+    /* border: 2px solid black; */
+    border-radius: .2rem .2rem; 
+    box-shadow: 0px 10px 30px #00000020; 
+}
+
+.off-4{
+    position: absolute;
+    top: 1rem;
+    left: 83rem;
+    border-radius: 20rem 20rem;
+    padding: .6rem .8rem;
+    font-size: .8rem;
+    background-color: #E1FFF1;
+}
+
+.watch-img{
+    width: 10rem;
+}
+
+.col{
+    color:blue;
+}
+
+/* over  */
+
+.offers img{
+    width: 86%;   
+}
+
+.offers{
+    position: relative;
+    justify-content: center;
+    margin: 3rem 0rem 2rem 15rem;
+}
+
+.offer-txt-1{
+    position: absolute;
+    top: 6rem;
+    left: 10rem;
+    color: white ;
+    font-size: 2rem;
+}
+
+.offer-txt-2{
+    position: absolute;
+    left: 10rem;
+    bottom: 17rem;
+    font-size: 5rem;
+    color: white;
+}
+
+.offer-txt-3{
+    position: absolute;
+    bottom: 10rem;
+    left:10rem ;
+    font-size: 6rem;
+    color: white;
+}
+
+.offer-txt-4{
+    position: absolute;
+    bottom: 6rem;
+    left: 10rem;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 20rem 20rem;
+    background-color: black;
+    color: white;
+}
+
+/* over  */
+
+.seller{
+    align-items: center;
+    display: flex;
+    justify-content: center;    
+    gap: 65rem;
+}
+
+
+.seller-1{
+    font-size: 3rem;
+}
+
+.seller-2{
+    padding: .5rem 1.2rem;
+    background-color: black; 
+    color: white;
+    border: 2px solid black;
+    border-radius: 20rem 20rem;
+}
+
+/* off seller  */
+
+
+
+.best-sales{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2.2rem;
+    max-width: 100%;
+    /* border: 2px solid black; */
+}
+
+
+
+.watch-1{
+    border-top: 2rem;
+    padding: 4.8rem 4rem;
+    text-align: center;
+    border-radius: .2rem .2rem; 
+    box-shadow: 0px 10px 30px #00000020; 
+}
+
+.tex-1{
+    position: absolute;
+    top: 1rem;
+    left: 19rem;
+    border-radius: 20rem 20rem;
+    padding: .5rem .8rem;
+    font-size: .8rem;
+    background-color: #E1FFF1;
+}
+
+.time-watch{
+    width: 9rem;
+}
+
+
+
+.micro{
+    border-top: 2rem;
+    padding: 4.5rem 3rem;
+    text-align: center;
+    border-radius: .2rem .2rem;
+    box-shadow: 0px 10px 30px #00000020;
+}
+
+.tex-2{
+    position: absolute;
+    top: 1rem;
+    left: 40rem;
+    border-radius: 20rem 20rem;
+    padding: .5rem .8rem;
+    font-size: .8rem;
+    background-color: #E1FFF1;
+}
+
+.micro-1{
+    width: 14rem;
+}
+
+
+.LCD{
+    /* position: absolute; */
+    border-top: 3rem;
+    padding: 5rem 3rem;
+    text-align: center;
+    border-radius: .2rem .2rem;
+    box-shadow: 0px 10px 30px #00000020;
+}
+
+.tex-3{
+    position: absolute;
+    top: 1rem;
+    left: 61rem;
+    border-radius: 20rem 20rem;
+    padding: .5rem .8rem;
+    font-size: .8rem;
+    background-color: #E1FFF1;
+}
+
+.LCD-img{
+    width: 12rem;
+}
+
+
+
+.smart-camera{
+    border-top: 2rem;
+    padding: 4.5rem 3rem;
+    text-align: center;
+    /* border: 2px solid black; */
+    border-radius: .2rem .2rem; 
+    box-shadow: 0px 10px 30px #00000020; 
+}
+
+.tex-4{
+    position: absolute;
+    top: 1rem;
+    left: 82rem;
+    border-radius: 20rem 20rem;
+    padding: .5rem .8rem;
+    font-size: .8rem;
+    background-color: #E1FFF1;
+}
+
+.camera-img{
+    width: 12rem;
+}
+
+.clr{
+    color: blue;
+}
+
+/* done  */
+
+.back-items{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    gap: 2rem;
+}
+
+.back-items img{
+    width: 27rem;
+}
+
+
+/* most .purchased  */
+
+.purchased{
+    align-items: center;
+    display: flex;
+    justify-content: center;    
+    gap: 59rem;
+}
+
+
+.pur-1{
+    font-size: 3rem;
+}
+
+.pur-2{
+    padding: .5rem 1.2rem;
+    background-color: black; 
+    color: white;
+    border: 2px solid black;
+    border-radius: 20rem 20rem;
+}
+
+/* done  */
+
+
+.best-tools{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 4rem;
+}
+
+.laptop-tool{
+    border-top: 2rem;
+    padding: 3rem 4rem;
+    text-align: center;
+    /* border: 2px solid black; */
+    border-radius: .2rem .2rem; 
+    box-shadow: 0px 10px 30px #00000020;
+}
+
+.sz-1{
+    position: absolute;
+    top: 6rem;
+    left: 17rem;
+    border-radius: 20rem 20rem;
+    padding: .5rem .8rem;
+    font-size: .8rem;
+    background-color: #E1FFF1
+}
+
+.lap-img{
+    width: 13rem;
+}
+
+.phone-tool{
+    border-top: 2rem;
+    padding: 4rem 4rem;
+    text-align: center;
+    /* border: 2px solid black; */
+    border-radius: .2rem .2rem; 
+    box-shadow: 0px 10px 30px #00000020;
+}
+
+.sz-2{
+    position: absolute;
+    top: 6rem;
+    left: 39rem;
+    border-radius: 20rem 20rem;
+    padding: .5rem .8rem;
+    font-size: .8rem;
+    background-color: #E1FFF1
+}
+
+.phn-img{
+    width: 10rem;
+}
+
+.headphn-img{
+    width: 14rem;
+}
+
+.sz-3{
+    position: absolute;
+    top: 6rem;
+    left: 60rem;
+    border-radius: 20rem 20rem;
+    padding: .5rem .8rem;
+    font-size: .8rem;
+    background-color: #E1FFF1
+}
+
+
+.headphone-tool{
+    border-top: 2rem;
+    padding: 4rem 4rem;
+    text-align: center;
+    /* border: 2px solid black; */
+    border-radius: .2rem .2rem; 
+    box-shadow: 0px 10px 30px #00000020;
+}
+
+.watch-tool{
+    border-top: 2rem;
+    padding: 4rem 4rem;
+    text-align: center;
+    /* border: 2px solid black; */
+    border-radius: .2rem .2rem; 
+    box-shadow: 0px 10px 30px #00000020;
+}
+
+.sz-4{
+    position: absolute;
+    top: 6rem;
+    left: 83rem;
+    border-radius: 20rem 20rem;
+    padding: .5rem .8rem;
+    font-size: .8rem;
+    background-color: #E1FFF1
+}
+
+.watch-tool-img{
+    width: 12rem;
+}
+
+/* done  */
+
+.brand-1{
+    position: relative;
+}
+
+.brands{
+    margin-left: 15rem;
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+/* done  */
+
+.top-brands{
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    gap: 4.5rem;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
