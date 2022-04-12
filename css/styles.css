@@ -819,15 +819,12 @@
   /* done  */
   
   
-  
-  
-  
   .the-end {
     display: flex;
-  
-    /* gap: 15rem; */
-    justify-content: space-between;
-    /* padding: 2rem; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    /* border-left: 2rem; */
+    
   
   }
   
