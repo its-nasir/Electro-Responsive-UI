@@ -8,6 +8,7 @@
     <title>Electro_UI</title>
     <link rel="icon" type="image/png" sizes="32x32" href="./images/0fd908f4d0513d8b2400be736db141fb@2x.png">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/querry.css">
 
     <!-- Primary Meta Tags -->
     <title>Electro Web-Site UI</title>
@@ -65,12 +66,11 @@
             </div>
         </div>
 
-        <div class="all-items">
-            <form action="#" class="second">
-                <select name="Mobile" id="">
+        <!-- <div class="all-items"> -->
+            <form  class="second">
+                <select class="mobile" name="Mobile">
                     <option value="Mobile">Mobile</option>
-                    <option value="Real me">Real me</menu>
-                    </option>
+                    <option value="Real me">Real me</option>
                     <option value="Oppo">Oppo</option>
                     <option value="Mi">Mi</option>
                     <option value="Swipe">Swipe</option>
@@ -129,7 +129,7 @@
                 </select>
 
                 <select name="Speaker" id="">
-                    <option value="">Speaker</option>
+                    <option value="">Speake</option>
                     <option value="">Harman International</option>
                     <option value="">Bose</option>
                     <option value="">Sennheiser</option>
@@ -213,7 +213,7 @@
             <section class="smart-products">
                 <div class="laptop">
                     <img class="laptop-img" src="./images/laptop.png" alt="">
-                    <p class="off-1 clr">10% OFF</p>
+                    <p class="off-1 clr ">10% OFF</p>
                     <p class="col">Laptop</p>
                     <h4>Asus Core i3 10th Gen-(4 GB/512...</h4>
                     <img src="./images/star-1.svg" alt="">
@@ -284,13 +284,20 @@
                 </div>
             </section>
 
-            <section class="offers">
-                <img src="./images/girl.png" alt="">
-                <p class="offer-txt-1"> <i>Special offer on</i></p>
-                <p class="offer-txt-2">Headphones</p>
-                <h3 class="offer-txt-3"> <strong>20% off</strong> </h3>
-                <p class="offer-txt-4">ORDER NOW</p>
-            </section>
+
+            <div class="offers-container">
+                <section class="offers">
+                    <img class="colr" src="./images/girl.png" alt="">
+                    <div class="txt-container">
+                        <p class="offer-txt-1"> <i>Special offer on</i></p>
+                        <p class="offer-txt-2">Headphones</p>
+                        <h3 class="offer-txt-3"> <strong>20% off</strong> </h3>
+                        <button class="offer-txt-4">ORDER NOW</button>
+                    </div>
+                </section>
+            </div>
+
+
 
             <section class="seller">
                 <h2 class="seller-1">Best Sellers</h2>
@@ -583,6 +590,9 @@
                 </div>
             </section>
 
+
+
+
             <section class="search-1">
                 <div>
                     <p> <i> Get the latest news and offers </i></p>
@@ -598,6 +608,8 @@
                     </form>
                 </div>
             </section>
+
+
 
             <!-- done -->
 
@@ -710,4 +722,5 @@
             </footer>
     </main>
 </body>
+
 </html>
